@@ -1,0 +1,20 @@
+{
+    "name": "hdev/helloworld",
+    "description": "Package đầu tiên",
+    "homepage": "https://github.com/QuachDuyHung1998/hdev-helloworld",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hdev\\Helloworld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quách Duy Hưng",
+            "email": "quachduyhung.1998@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
